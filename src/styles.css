@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700;800&display=swap');
+body {
+    box-sizing: border-box;
+    background: var(--very-light-blue, #ECF2FF);
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(221, 100%, 96%);
+}
+
+.image {
+    background-image: url(./images/Oval.svg);
+    height: 145px;
+    width: 145px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+}
